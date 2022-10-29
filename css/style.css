@@ -175,4 +175,5 @@ header h1{
 section div img{
     width: 6rem;
     height: 6rem;
+    border-radius: 100%;
 }
