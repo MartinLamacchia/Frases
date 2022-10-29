@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*-----RESET-----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: bisque
+}
+
+/*-----HEADER-----*/
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 3rem;
+
+}
+
+/*-----MAIN-----*/
+
+.card__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frases__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0rem;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.frases__container:hover{
+    transform: rotateY(180deg);
+}
+
+.frases__celebres1-front, .frases__celebres1-back{
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    padding: 0rem 1rem;
+    background-color: rgb(226, 196, 159);
+    border: 2px solid black;
+    border-radius: 10%;
+    backface-visibility: hidden;
+}
+.frases__celebres1-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frases__celebres1-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.frases__celebres2-front, .frases__celebres2-back{
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    padding: 0rem 1rem;
+    background-color: rgb(226, 196, 159);
+    border: 2px solid black;
+    border-radius: 10%;
+    backface-visibility: hidden;
+}
+
+.frases__celebres2-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frases__celebres2-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.frases__celebres3-front, .frases__celebres3-back{
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    padding: 0rem 1rem;
+    background-color: rgb(226, 196, 159);
+    border: 2px solid black;
+    border-radius: 10%;
+    backface-visibility: hidden;
+}
+
+.frases__celebres3-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backface-visibility: hidden;
+}
+
+.frases__celebres3-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.frases__celebres4-front, .frases__celebres4-back{
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    padding: 0rem 1rem;
+    background-color: rgb(226, 196, 159);
+    border: 2px solid black;
+    border-radius: 10%;
+    backface-visibility: hidden;
+}
+
+.frases__celebres4-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frases__celebres4-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.frases__celebres5-front, .frases__celebres5-back{
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    padding: 0rem 1rem;
+    background-color: rgb(226, 196, 159);
+    border: 2px solid black;
+    border-radius: 10%;
+    backface-visibility: hidden;
+}
+
+.frases__celebres5-front{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frases__celebres5-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+section div img{
+    width: 6rem;
+    height: 6rem;
+}
