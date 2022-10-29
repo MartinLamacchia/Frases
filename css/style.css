@@ -177,26 +177,3 @@ section div img{
     height: 6rem;
     border-radius: 100%;
 }
-
-@media screen and (max-width:500px){
-    
-    .frases__celebres1-back:hover{
-        transform: rotateY(-180deg);
-    }
-
-    .frases__celebres2-back:hover{
-        transform: rotateY(-180deg);
-    }
-
-    .frases__celebres3-back:hover{
-        transform: rotateY(-180deg);
-    }
-
-    .frases__celebres4-back:hover{
-        transform: rotateY(-180deg);
-    }
-
-    .frases__celebres5-back:hover{
-        transform: rotateY(-180deg);
-    }
-}
