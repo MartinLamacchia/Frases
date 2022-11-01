@@ -208,13 +208,13 @@ footer{
 }
 
 
-a:hover{
+.footer__gitml a:hover{
     text-decoration: underline;
     color: #a91515;
     font-size: 18px;
 }
 
-p:hover{
+.footer__gitml p:hover{
     text-decoration: underline;
     color: #a91515;
     font-size: 18px;
